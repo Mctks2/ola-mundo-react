@@ -2,7 +2,7 @@ import styles from "./SobreMim.module.css";
 
 import PostModelo from "componentes/PostModelo";
 import fotoCapa from "assets/sobre_mim_capa.png";
-import fotoSobreMim from "assets/sobre_mim_foto.png";
+import fotoSobreMim from "assets/sobre_mim_foto_1.png";
 
 export default function SobreMim() {
     return (
@@ -35,9 +35,6 @@ export default function SobreMim() {
             <p className={styles.paragrafo}>
                 Atualmente, continuo me dedicando aos estudos para me tornar um desenvolvedor fullstack, com preferência pelo front-end. Tenho realizado diversos projetos e me desafiado continuamente para me qualificar no mercado de trabalho.
             </p>
-            {/* <p className={styles.paragrafo}>
-                Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
-            </p> */}
         </PostModelo>
     )
 }
